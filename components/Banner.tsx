@@ -1,7 +1,6 @@
 import Image from 'next/image'
-import React from 'react' 
-import profile from '../public/images/profile.JPEG'
-import Title from './Title'
+import React from 'react'  
+import profile from "../public/images/profile.jpeg"
 const Banner = () => {
   return (
     <div className='py-20 flex flex-col md:flex-row md:items-start items-center gap-10 wrapper'>

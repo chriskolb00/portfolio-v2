@@ -4,7 +4,7 @@ import { CgProfile } from 'react-icons/cg'
 import Title from './Title'
 const Aboutme = () => {
   return (
-    <div className='wrapper sm:max-md:px-5'>
+    <div className='wrapper px-5'>
         <Title text="About Me" icon={<CgProfile/>} /> 
         <div className='tracking-wdie flex flex-col gap-6'>
             <p className='text-lg'>

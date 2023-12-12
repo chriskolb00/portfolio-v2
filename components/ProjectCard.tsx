@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 interface Props{
-    img:any;
+    img:string;
     title:string;
     link:string;
 }

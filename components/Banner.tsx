@@ -1,14 +1,13 @@
 import Image from 'next/image'
-import React from 'react'  
-import profile from "../public/images/profile.jpeg"
+import React from 'react'   
 const Banner = () => {
   return (
-    <div className='py-20 flex flex-col md:flex-row md:items-start items-center gap-10 wrapper'>
+    <div className='py-20 flex flex-col md:flex-row md:items-start items-center gap-20 wrapper'>
         <div className='w-[250px] h-[250px] rounded-full bg-black'>
-            <Image src={profile} alt="Profile image" 
+            <Image src="/images/profile.jpeg" alt="Profile image"  width={250} height={250}
             className='w-full h-full rounded-full border-sm object-cover border-indigo-600 p-1'/>
         </div>
-        <div className='w-3/4 flex flex-col items-center md:items-start gap-2'>
+        <div className='mt-10 w-3/4 flex flex-col items-center md:items-start gap-5'>
 
             <h1 className='text-5xl font-bold text-white'>
                 Christian Kolb

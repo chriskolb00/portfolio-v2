@@ -1,11 +1,12 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from 'next/image'
 import React from 'react'   
 const Banner = () => {
   return (
     <div className='py-20 flex flex-col md:flex-row md:items-start items-center gap-20 wrapper'>
-        <div className='w-[250px] h-[300px] rounded-full bg-black'>
-            <Image src="/images/profile.png" alt="Profile image" width={250} height={250}
-            className='rounded-full border-sm object-cover border-indigo-600 p-1'/>
+        <div className='w-[250px] h-[250px] rounded-full bg-black'>
+            <img src="/images/profile.png" alt="Profile image"
+            className='w-full h-full rounded-full border-sm object-cover border-indigo-600 p-1'/>
         </div>
         <div className='mt-10 w-3/4 flex flex-col items-center md:items-start gap-5'>
 

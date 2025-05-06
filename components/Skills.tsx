@@ -2,10 +2,10 @@ import React from 'react'
 import Title from './Title'
 import {GiSkills} from 'react-icons/gi'
 const skill_list =[
-    "JavaScript","HTML","CSS","ReactJS","Tailwindcss","Vercel", "Netify",
-    "TypeScript", "NodeJS","NextJS","MongoDB","MySQL","PostgreSQL",
-    "Java","Python","C","VS Code", "Eclipse", "Github",  "Git", "Jira","Trello",
-    "MS Team", "docker","linux","kubernetes","aws"
+    "JavaScript","HTML","CSS","React.js","Tailwindcss","Vercel", "Netify",
+    "TypeScript", "Node.js","Next.js","MongoDB","MySQL","PostgreSQL",
+    "Java","Python","C", "Eclipse", "Github",  "Git", "Jira", "Clickup",
+    "MS Team", "docker","linux","kubernetes","AWS", "Azure devops",
 ]
 const Skills = () => {
   return (

@@ -8,10 +8,10 @@ const Experience = () => {
     <div className='wrapper'>
         <Title text="Experiences" icon={<MdWork />}/>
         <div className='space-y-10 mt-10'>
+            <ExperienceCard title="ShineForth"
+            subTitle="Software Developer 4/2024 - current" icon={<SiReactivex/>} /> 
             <ExperienceCard title="Gold Mountain Restaurant"
             subTitle="Waiter 10/2019 - 3/2023" icon={<SiReactivex/>} /> 
-            <ExperienceCard title="Amazon Fulfillment Center"
-            subTitle="Fulfillment Associate 6/2023 - 8/2023" icon={<SiReactivex/>} /> 
         </div>
     </div>
   )

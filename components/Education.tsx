@@ -12,9 +12,9 @@ const Education = () => {
         <Title text="Education" icon={<FaGraduationCap />}/>
         <div >
             <h2 className='text-xl font-bold'>University of Nebraska Omaha</h2>
-            <h3 className='text-lg  font-semibold'>Computer Science</h3>
+            <h3 className='text-lg  font-semibold'>Bachelor of Science for Computer Science</h3>
             <div className='mt-5 text-md'>
-                <p className=''>9/2019 - Present</p>
+                <p className=''>8/2019 - 5/2024</p>
                 <div className='flex flex-wrap mt-5'>
                     {courses.map((course)=>(
                         <p key={course} className="m-1 border border-blue-800 px-5 py-2 text-lg bg-transparent hover:text-white hover:border-blue-500 hover:bg-black rounded-sm">

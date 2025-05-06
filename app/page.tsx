@@ -12,9 +12,9 @@ export default function Home() {
       <div className='max-w-screen-xl mx-auto lg:pt-10'>
         <Banner />
         <Aboutme />
-        <Education />
         <Experience />
         <Skills />
+        <Education />
         <Projects />
         <Contact />
       </div>
